@@ -4,7 +4,7 @@ const screenshot = require("screenshot-desktop");
 const Z4 = require("@thi.ng/strings").padLeft(4, "0");
 
 let id = 0;
-let delay = 1000;
+let delay = 500;
 
 switch (process.argv.length - 2) {
     case 2:
