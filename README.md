@@ -11,7 +11,7 @@ cd screenlapse
 yarn install
 
 # start recording, ctrl+c to stop
-./timelapse <delay> <startframe>
+./screenlapse <delay> <startframe>
 ```
 
 All args are optional, but must be given in this order:
