@@ -1,0 +1,16 @@
+{
+    "name": "screenlapse",
+    "version": "1.0.0",
+    "description": "No thrills NodeJS based timelapse screen recording CLI util",
+    "main": "timelapse.js",
+    "dependencies": {
+        "@thi.ng/strings": "^1.2.0",
+        "screenshot-desktop": "^1.8.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Karsten Schmidt <karsten.schmidt@nike.com>",
+    "license": "ISC"
+}
