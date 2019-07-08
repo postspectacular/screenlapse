@@ -1,0 +1,12 @@
+#!/bin/sh
+files="$*";
+i=0;
+for src in $files; do
+    src="$src"
+    printf -v j "%04d" $i
+    len=${#src}
+    dest="`dirname $src`/$j.${src:len-3:3}"
+    echo "$src -> $dest"
+    mv $src $dest
+    i=$[i+1]
+done
