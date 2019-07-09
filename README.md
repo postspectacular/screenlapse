@@ -1,6 +1,6 @@
 # screenlapse
 
-No thrills NodeJS based timelapse screen recording CLI util, largely
+No frills NodeJS based timelapse screen recording CLI util, largely
 thanks to
 [screenshot-desktop](https://github.com/bencevans/screenshot-desktop).
 
