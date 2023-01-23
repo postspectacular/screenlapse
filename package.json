@@ -1,6 +1,6 @@
 {
 	"name": "screenlapse",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"description": "No thrills NodeJS based timelapse screen recording CLI util",
 	"type": "module",
 	"module": "./screenlapse.js",

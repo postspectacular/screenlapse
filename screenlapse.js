@@ -18,4 +18,10 @@ switch (process.argv.length - 2) {
 console.log(`recording from id=${id} @ ${delay}ms...`);
 console.log("press ctrl+c to stop.");
 
-setInterval(() => screenshot({ filename: Z4(id++) + ".jpg" }), delay);
+setInterval(async () => {
+	try {
+		await screenshot({ filename: Z4(id++) + ".jpg" });
+	} catch (e) {
+		console.warn("error recording screen:", e.message);
+	}
+}, delay);
