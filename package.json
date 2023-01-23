@@ -8,10 +8,6 @@
 		"@thi.ng/strings": "^3.3.23",
 		"screenshot-desktop": "^1.12.7"
 	},
-	"devDependencies": {},
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"author": "Karsten Schmidt <karsten.schmidt@nike.com>",
-	"license": "ISC"
+	"author": "Karsten Schmidt <k@thi.ng>",
+	"license": "Apache-2.0"
 }
